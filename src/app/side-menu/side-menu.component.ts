@@ -8,13 +8,13 @@ import {Component, OnInit} from '@angular/core';
 export class SideMenuComponent implements OnInit {
 sideMenuCollection: Array<any>;
     ngOnInit() {
-     this.sideMenuCollection = [{
+     this.sideMenuCollection = [ {
          glyphClass: 'glyphicon-envelope',
          label: 'Nested Routing',
          routeLink: 'home',
          queryParams: [{key: '', value: ''}],
          childMenu: []
-     },
+     }, 
     //  {
     //     glyphClass: 'glyphicon-envelope',
     //     label: 'Pop Up',
